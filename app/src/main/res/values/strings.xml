@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TransBlink</string>
+    <string name="btnNearest">Nearest Station</string>
+    <string name="btnMap">Skytrain Stations Map</string>
+    <string name="btnTrip">Trip Planner</string>
+    <string name="btnThemes">Themes</string>
+    <string name="lblLocation">Tap a station to set as start point</string>
+    <string name="hintStarting">Enter Starting Station Here</string>
+    <string name="hintDestination">Enter Destination Station Here</string>
+    <string name="btnChangeTheme">Change Theme</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="themeLabel"><u>Select Theme</u></string>
+    <string name="fontLabel"><u>Select Font</u></string>
+    <string name="routeLabel"><b>Trip Plan</b></string>
+</resources>

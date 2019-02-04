@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="royaltyPrimary">#D4AF37</color>
+    <color name="royaltySecondary">#C0C0C0</color>
+    <color name="royaltyAccent">#cd7f32</color>
+
+    <color name="brandonPrimary">#7f0705</color>
+    <color name="brandonSecondary">#060706</color>
+    <color name="brandonAccent">#bab2a0</color>
+
+    <color name="colorPrimary">#466eaf</color>
+    <color name="colorPrimaryDark">#0b2144</color>
+    <color name="colorAccent">#ff882c</color>
+
+    <color name="darkPrimary">#545c66</color>
+    <color name="darkSecondary">#11072b</color>
+    <color name="darkAccent">#dadfe8</color>
+
+    <color name="lightPrimary">#add4ff</color>
+    <color name="lightSecondary">#fff8ed</color>
+    <color name="lightAccent">#002854</color>
+
+    <color name="crazyPrimary">#e900ff</color>
+    <color name="crazySecondary">#fff600</color>
+    <color name="crazyAccent">#10f700</color>
+
+
+</resources>

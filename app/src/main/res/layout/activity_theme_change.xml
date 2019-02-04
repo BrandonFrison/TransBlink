@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_theme_change"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.brandon.transblink.ThemeChange"
+    android:background="?android:attr/colorPrimaryDark">
+
+    <Button
+        android:text="@string/btnChangeTheme"
+        android:layout_width="222dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonChangeTheme"
+        android:background="@drawable/button_selector"
+        android:textColor="?android:attr/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:layout_width="150dip"
+        android:layout_height="220dip"
+        android:layout_marginTop="30dip"
+        android:id="@+id/radioGroupThemes"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:text="Default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:id="@+id/radioButtonDefaultTheme"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimary"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:textColorLink="@color/colorAccent"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:text="Dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/radioButtonDarkTheme"
+            android:layout_weight="1"
+            android:textColor="@color/darkPrimary"
+            android:textColorHighlight="@color/darkSecondary"
+            android:textColorLink="@color/darkAccent" />
+
+        <RadioButton
+            android:text="Light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonLightTheme"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/lightPrimary"
+            android:textColorHighlight="@color/lightSecondary"
+            android:textColorLink="@color/lightAccent" />
+
+        <RadioButton
+            android:text="Clown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/radioButtonCrazyTheme"
+            android:layout_weight="1"
+            android:textColor="@color/crazyPrimary"
+            android:textColorHighlight="@color/crazySecondary"
+            android:textColorLink="@color/crazyAccent" />
+
+        <RadioButton
+            android:text="Royalty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/radioButtonRoyaltyTheme"
+            android:layout_weight="1"
+            android:textColor="@color/royaltyPrimary"
+            android:textColorHighlight="@color/royaltySecondary"
+            android:textColorLink="@color/royaltyAccent" />
+
+        <RadioButton
+            android:text="Developer Favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/radioButtonDevTheme"
+            android:layout_weight="1"
+            android:textColor="@color/brandonPrimary"
+            android:textColorHighlight="@color/brandonSecondary"
+            android:textColorLink="@color/brandonAccent" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="200dip"
+        android:layout_marginTop="30dip"
+        android:layout_height="350dip"
+        android:id="@+id/radioGroupFonts"
+        android:orientation="vertical"
+        android:layout_alignRight="@+id/radioGroupThemes"
+        android:layout_alignParentRight="true"
+        >
+
+        <RadioButton
+            android:text="Default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:textColor="?android:attr/colorAccent"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:id="@+id/radioButtonDefaultFont"
+            android:layout_weight="1"
+            android:checked="true" />
+
+        <RadioButton
+            android:text="Typewriter"
+            android:fontFamily="serif-monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonTypewriter"
+            android:textColor="?android:attr/colorAccent"
+            android:textSize="16sp"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Condensed Default"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/radioButtonCondensed"
+            android:textColor="?android:attr/colorAccent"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Noto Serif"
+            android:fontFamily="serif"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonNotoSerif"
+            android:textColor="?android:attr/colorAccent"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Cursive"
+            android:fontFamily="cursive"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonCursive"
+            android:textColor="?android:attr/colorAccent"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Carrois Gothic"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonCarroisGothic"
+            android:textColor="?android:attr/colorAccent"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Droid Sans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:id="@+id/radioButtonDroidSans"
+            android:textSize="16sp"
+            android:textColor="?android:attr/colorAccent"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Developer Favourite"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonBrandonFont"
+            android:fontFamily="casual"
+            android:textColor="?android:attr/colorAccent"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <TextView
+        android:text="@string/themeLabel"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="?android:attr/colorAccent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textViewThemeLabel" />
+
+    <TextView
+        android:text="@string/fontLabel"
+        android:textSize="18sp"
+        android:textColor="?android:attr/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewFontLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/radioGroupFonts"
+        android:layout_marginStart="25dp" />
+
+
+</RelativeLayout>

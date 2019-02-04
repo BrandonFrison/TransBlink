@@ -1,0 +1,569 @@
+<resources>
+
+    <!-- font styles below -->
+
+    <style name="defaultFont" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="typewriterFont" parent="android:Widget.TextView">
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="condensedDefaultFont" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="notoSerifFont" parent="android:Widget.TextView">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="cursiveFont" parent="android:Widget.TextView">
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="carroisGothicFont" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="droidSansFont" parent="android:Widget.TextView">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="developerFavFont" parent="android:Widget.TextView">
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 48 styles -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAppearanceButton">@style/defaultFont</item>
+        <item name="android:textViewStyle">@style/defaultFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/defaultFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/defaultFont</item>
+        <item name="android:textAppearanceSmall">@style/typewriterFont</item>
+    </style>
+
+    <style name="themeDefaultType" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAppearanceButton">@style/typewriterFont</item>
+        <item name="android:textViewStyle">@style/typewriterFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/typewriterFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/typewriterFont</item>
+    </style>
+
+    <style name="themeDefaultCond" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAppearanceButton">@style/condensedDefaultFont</item>
+        <item name="android:textViewStyle">@style/condensedDefaultFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/condensedDefaultFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/condensedDefaultFont</item>
+    </style>
+
+    <style name="themeDefaultNoto" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAppearanceButton">@style/notoSerifFont</item>
+        <item name="android:textViewStyle">@style/notoSerifFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/notoSerifFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/notoSerifFont</item>
+    </style>
+
+    <style name="themeDefaultCursive" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAppearanceButton">@style/cursiveFont</item>
+        <item name="android:textViewStyle">@style/cursiveFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/cursiveFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/cursiveFont</item>
+    </style>
+
+    <style name="themeDefaultCarrois" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAppearanceButton">@style/carroisGothicFont</item>
+        <item name="android:textViewStyle">@style/carroisGothicFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/carroisGothicFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/carroisGothicFont</item>
+    </style>
+
+    <style name="themeDefaultDroid" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAppearanceButton">@style/droidSansFont</item>
+        <item name="android:textViewStyle">@style/droidSansFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/droidSansFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/droidSansFont</item>
+    </style>
+
+    <style name="themeDefaultDev" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAppearanceButton">@style/developerFavFont</item>
+        <item name="android:textViewStyle">@style/developerFavFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/developerFavFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/developerFavFont</item>
+    </style>
+
+    <style name="themeDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorPrimaryDark">@color/darkSecondary</item>
+        <item name="colorAccent">@color/darkAccent</item>
+        <item name="android:textAppearanceButton">@style/defaultFont</item>
+        <item name="android:textViewStyle">@style/defaultFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/defaultFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/defaultFont</item>
+    </style>
+
+    <style name="themeDarkType" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorPrimaryDark">@color/darkSecondary</item>
+        <item name="colorAccent">@color/darkAccent</item>
+        <item name="android:textAppearanceButton">@style/typewriterFont</item>
+        <item name="android:textViewStyle">@style/typewriterFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/typewriterFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/typewriterFont</item>
+    </style>
+
+    <style name="themeDarkCond" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorPrimaryDark">@color/darkSecondary</item>
+        <item name="colorAccent">@color/darkAccent</item>
+        <item name="android:textAppearanceButton">@style/condensedDefaultFont</item>
+        <item name="android:textViewStyle">@style/condensedDefaultFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/condensedDefaultFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/condensedDefaultFont</item>
+    </style>
+
+    <style name="themeDarkNoto" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorPrimaryDark">@color/darkSecondary</item>
+        <item name="colorAccent">@color/darkAccent</item>
+        <item name="android:textAppearanceButton">@style/notoSerifFont</item>
+        <item name="android:textViewStyle">@style/notoSerifFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/notoSerifFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/notoSerifFont</item>
+    </style>
+
+    <style name="themeDarkCursive" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorPrimaryDark">@color/darkSecondary</item>
+        <item name="colorAccent">@color/darkAccent</item>
+        <item name="android:textAppearanceButton">@style/cursiveFont</item>
+        <item name="android:textViewStyle">@style/cursiveFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/cursiveFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/cursiveFont</item>
+    </style>
+
+    <style name="themeDarkCarrois" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorPrimaryDark">@color/darkSecondary</item>
+        <item name="colorAccent">@color/darkAccent</item>
+        <item name="android:textAppearanceButton">@style/carroisGothicFont</item>
+        <item name="android:textViewStyle">@style/carroisGothicFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/carroisGothicFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/carroisGothicFont</item>
+    </style>
+
+    <style name="themeDarkDroid" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorPrimaryDark">@color/darkSecondary</item>
+        <item name="colorAccent">@color/darkAccent</item>
+        <item name="android:textAppearanceButton">@style/droidSansFont</item>
+        <item name="android:textViewStyle">@style/droidSansFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/droidSansFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/droidSansFont</item>
+    </style>
+
+    <style name="themeDarkDev" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorPrimaryDark">@color/darkSecondary</item>
+        <item name="colorAccent">@color/darkAccent</item>
+        <item name="android:textAppearanceButton">@style/developerFavFont</item>
+        <item name="android:textViewStyle">@style/developerFavFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/developerFavFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/developerFavFont</item>
+    </style>
+
+    <style name="themeLight" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorPrimaryDark">@color/lightSecondary</item>
+        <item name="colorAccent">@color/lightAccent</item>
+        <item name="android:textAppearanceButton">@style/defaultFont</item>
+        <item name="android:textViewStyle">@style/defaultFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/defaultFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/defaultFont</item>
+    </style>
+
+    <style name="themeLightType" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorPrimaryDark">@color/lightSecondary</item>
+        <item name="colorAccent">@color/lightAccent</item>
+        <item name="android:textAppearanceButton">@style/typewriterFont</item>
+        <item name="android:textViewStyle">@style/typewriterFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/typewriterFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/typewriterFont</item>
+    </style>
+
+    <style name="themeLightCond" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorPrimaryDark">@color/lightSecondary</item>
+        <item name="colorAccent">@color/lightAccent</item>
+        <item name="android:textAppearanceButton">@style/condensedDefaultFont</item>
+        <item name="android:textViewStyle">@style/condensedDefaultFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/condensedDefaultFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/condensedDefaultFont</item>
+    </style>
+
+    <style name="themeLightNoto" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorPrimaryDark">@color/lightSecondary</item>
+        <item name="colorAccent">@color/lightAccent</item>
+        <item name="android:textAppearanceButton">@style/notoSerifFont</item>
+        <item name="android:textViewStyle">@style/notoSerifFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/notoSerifFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/notoSerifFont</item>
+    </style>
+
+    <style name="themeLightCursive" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorPrimaryDark">@color/lightSecondary</item>
+        <item name="colorAccent">@color/lightAccent</item>
+        <item name="android:textAppearanceButton">@style/cursiveFont</item>
+        <item name="android:textViewStyle">@style/cursiveFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/cursiveFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/cursiveFont</item>
+    </style>
+
+    <style name="themeLightCarrois" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorPrimaryDark">@color/lightSecondary</item>
+        <item name="colorAccent">@color/lightAccent</item>
+        <item name="android:textAppearanceButton">@style/carroisGothicFont</item>
+        <item name="android:textViewStyle">@style/carroisGothicFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/carroisGothicFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/carroisGothicFont</item>
+    </style>
+
+    <style name="themeLightDroid" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorPrimaryDark">@color/lightSecondary</item>
+        <item name="colorAccent">@color/lightAccent</item>
+        <item name="android:textAppearanceButton">@style/droidSansFont</item>
+        <item name="android:textViewStyle">@style/droidSansFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/droidSansFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/droidSansFont</item>
+    </style>
+
+    <style name="themeLightDev" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorPrimaryDark">@color/lightSecondary</item>
+        <item name="colorAccent">@color/lightAccent</item>
+        <item name="android:textAppearanceButton">@style/developerFavFont</item>
+        <item name="android:textViewStyle">@style/developerFavFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/developerFavFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/developerFavFont</item>
+    </style>
+
+    <style name="themeCrazy" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/crazyPrimary</item>
+        <item name="colorPrimaryDark">@color/crazySecondary</item>
+        <item name="colorAccent">@color/crazyAccent</item>
+        <item name="android:textAppearanceButton">@style/defaultFont</item>
+        <item name="android:textViewStyle">@style/defaultFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/defaultFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/defaultFont</item>
+    </style>
+
+    <style name="themeCrazyType" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/crazyPrimary</item>
+        <item name="colorPrimaryDark">@color/crazySecondary</item>
+        <item name="colorAccent">@color/crazyAccent</item>
+        <item name="android:textAppearanceButton">@style/typewriterFont</item>
+        <item name="android:textViewStyle">@style/typewriterFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/typewriterFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/typewriterFont</item>
+    </style>
+
+    <style name="themeCrazyCond" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/crazyPrimary</item>
+        <item name="colorPrimaryDark">@color/crazySecondary</item>
+        <item name="colorAccent">@color/crazyAccent</item>
+        <item name="android:textAppearanceButton">@style/condensedDefaultFont</item>
+        <item name="android:textViewStyle">@style/condensedDefaultFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/condensedDefaultFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/condensedDefaultFont</item>
+    </style>
+
+    <style name="themeCrazyNoto" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/crazyPrimary</item>
+        <item name="colorPrimaryDark">@color/crazySecondary</item>
+        <item name="colorAccent">@color/crazyAccent</item>
+        <item name="android:textAppearanceButton">@style/notoSerifFont</item>
+        <item name="android:textViewStyle">@style/notoSerifFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/notoSerifFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/notoSerifFont</item>
+    </style>
+
+    <style name="themeCrazyCursive" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/crazyPrimary</item>
+        <item name="colorPrimaryDark">@color/crazySecondary</item>
+        <item name="colorAccent">@color/crazyAccent</item>
+        <item name="android:textAppearanceButton">@style/cursiveFont</item>
+        <item name="android:textViewStyle">@style/cursiveFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/cursiveFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/cursiveFont</item>
+    </style>
+
+    <style name="themeCrazyCarrois" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/crazyPrimary</item>
+        <item name="colorPrimaryDark">@color/crazySecondary</item>
+        <item name="colorAccent">@color/crazyAccent</item>
+        <item name="android:textAppearanceButton">@style/carroisGothicFont</item>
+        <item name="android:textViewStyle">@style/carroisGothicFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/carroisGothicFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/carroisGothicFont</item>
+    </style>
+
+    <style name="themeCrazyDroid" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/crazyPrimary</item>
+        <item name="colorPrimaryDark">@color/crazySecondary</item>
+        <item name="colorAccent">@color/crazyAccent</item>
+        <item name="android:textAppearanceButton">@style/droidSansFont</item>
+        <item name="android:textViewStyle">@style/droidSansFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/droidSansFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/droidSansFont</item>
+    </style>
+
+    <style name="themeCrazyDev" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/crazyPrimary</item>
+        <item name="colorPrimaryDark">@color/crazySecondary</item>
+        <item name="colorAccent">@color/crazyAccent</item>
+        <item name="android:textAppearanceButton">@style/developerFavFont</item>
+        <item name="android:textViewStyle">@style/developerFavFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/developerFavFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/developerFavFont</item>
+    </style>
+
+    <style name="themeBrandon" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brandonPrimary</item>
+        <item name="colorPrimaryDark">@color/brandonSecondary</item>
+        <item name="colorAccent">@color/brandonAccent</item>
+        <item name="android:textAppearanceButton">@style/defaultFont</item>
+        <item name="android:textViewStyle">@style/defaultFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/defaultFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/defaultFont</item>
+    </style>
+
+    <style name="themeBrandonType" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brandonPrimary</item>
+        <item name="colorPrimaryDark">@color/brandonSecondary</item>
+        <item name="colorAccent">@color/brandonAccent</item>
+        <item name="android:textAppearanceButton">@style/typewriterFont</item>
+        <item name="android:textViewStyle">@style/typewriterFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/typewriterFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/typewriterFont</item>
+    </style>
+
+    <style name="themeBrandonCond" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brandonPrimary</item>
+        <item name="colorPrimaryDark">@color/brandonSecondary</item>
+        <item name="colorAccent">@color/brandonAccent</item>
+        <item name="android:textAppearanceButton">@style/condensedDefaultFont</item>
+        <item name="android:textViewStyle">@style/condensedDefaultFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/condensedDefaultFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/condensedDefaultFont</item>
+    </style>
+
+    <style name="themeBrandonNoto" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brandonPrimary</item>
+        <item name="colorPrimaryDark">@color/brandonSecondary</item>
+        <item name="colorAccent">@color/brandonAccent</item>
+        <item name="android:textAppearanceButton">@style/notoSerifFont</item>
+        <item name="android:textViewStyle">@style/notoSerifFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/notoSerifFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/notoSerifFont</item>
+    </style>
+
+    <style name="themeBrandonCursive" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brandonPrimary</item>
+        <item name="colorPrimaryDark">@color/brandonSecondary</item>
+        <item name="colorAccent">@color/brandonAccent</item>
+        <item name="android:textAppearanceButton">@style/cursiveFont</item>
+        <item name="android:textViewStyle">@style/cursiveFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/cursiveFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/cursiveFont</item>
+    </style>
+
+    <style name="themeBrandonCarrois" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brandonPrimary</item>
+        <item name="colorPrimaryDark">@color/brandonSecondary</item>
+        <item name="colorAccent">@color/brandonAccent</item>
+        <item name="android:textAppearanceButton">@style/carroisGothicFont</item>
+        <item name="android:textViewStyle">@style/carroisGothicFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/carroisGothicFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/carroisGothicFont</item>
+    </style>
+
+    <style name="themeBrandonDroid" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brandonPrimary</item>
+        <item name="colorPrimaryDark">@color/brandonSecondary</item>
+        <item name="colorAccent">@color/brandonAccent</item>
+        <item name="android:textAppearanceButton">@style/droidSansFont</item>
+        <item name="android:textViewStyle">@style/droidSansFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/droidSansFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/droidSansFont</item>
+    </style>
+
+    <style name="themeBrandonDev" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brandonPrimary</item>
+        <item name="colorPrimaryDark">@color/brandonSecondary</item>
+        <item name="colorAccent">@color/brandonAccent</item>
+        <item name="android:textAppearanceButton">@style/developerFavFont</item>
+        <item name="android:textViewStyle">@style/developerFavFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/developerFavFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/developerFavFont</item>
+    </style>
+
+    <style name="themeRoyalty" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/royaltyPrimary</item>
+        <item name="colorPrimaryDark">@color/royaltySecondary</item>
+        <item name="colorAccent">@color/royaltyAccent</item>
+        <item name="android:textAppearanceButton">@style/defaultFont</item>
+        <item name="android:textViewStyle">@style/defaultFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/defaultFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/defaultFont</item>
+    </style>
+
+    <style name="themeRoyaltyType" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/royaltyPrimary</item>
+        <item name="colorPrimaryDark">@color/royaltySecondary</item>
+        <item name="colorAccent">@color/royaltyAccent</item>
+        <item name="android:textAppearanceButton">@style/typewriterFont</item>
+        <item name="android:textViewStyle">@style/typewriterFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/typewriterFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/typewriterFont</item>
+    </style>
+
+    <style name="themeRoyaltyCond" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/royaltyPrimary</item>
+        <item name="colorPrimaryDark">@color/royaltySecondary</item>
+        <item name="colorAccent">@color/royaltyAccent</item>
+        <item name="android:textAppearanceButton">@style/condensedDefaultFont</item>
+        <item name="android:textViewStyle">@style/condensedDefaultFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/condensedDefaultFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/condensedDefaultFont</item>
+    </style>
+
+    <style name="themeRoyaltyNoto" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/royaltyPrimary</item>
+        <item name="colorPrimaryDark">@color/royaltySecondary</item>
+        <item name="colorAccent">@color/royaltyAccent</item>
+        <item name="android:textAppearanceButton">@style/notoSerifFont</item>
+        <item name="android:textViewStyle">@style/notoSerifFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/notoSerifFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/notoSerifFont</item>
+    </style>
+
+    <style name="themeRoyaltyCursive" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/royaltyPrimary</item>
+        <item name="colorPrimaryDark">@color/royaltySecondary</item>
+        <item name="colorAccent">@color/royaltyAccent</item>
+        <item name="android:textAppearanceButton">@style/cursiveFont</item>
+        <item name="android:textViewStyle">@style/cursiveFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/cursiveFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/cursiveFont</item>
+    </style>
+
+    <style name="themeRoyaltyCarrois" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/royaltyPrimary</item>
+        <item name="colorPrimaryDark">@color/royaltySecondary</item>
+        <item name="colorAccent">@color/royaltyAccent</item>
+        <item name="android:textAppearanceButton">@style/carroisGothicFont</item>
+        <item name="android:textViewStyle">@style/carroisGothicFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/carroisGothicFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/carroisGothicFont</item>
+    </style>
+
+    <style name="themeRoyaltyDroid" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/royaltyPrimary</item>
+        <item name="colorPrimaryDark">@color/royaltySecondary</item>
+        <item name="colorAccent">@color/royaltyAccent</item>
+        <item name="android:textAppearanceButton">@style/droidSansFont</item>
+        <item name="android:textViewStyle">@style/droidSansFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/droidSansFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/droidSansFont</item>
+    </style>
+
+    <style name="themeRoyaltyDev" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/royaltyPrimary</item>
+        <item name="colorPrimaryDark">@color/royaltySecondary</item>
+        <item name="colorAccent">@color/royaltyAccent</item>
+        <item name="android:textAppearanceButton">@style/developerFavFont</item>
+        <item name="android:textViewStyle">@style/developerFavFont</item>
+        <item name="android:autoCompleteTextViewStyle">@style/developerFavFont</item>
+        <item name="android:textAppearanceMediumInverse">@style/developerFavFont</item>
+    </style>
+
+</resources>

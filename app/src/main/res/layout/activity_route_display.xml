@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_route_display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.brandon.transblink.RouteDisplay"
+    android:background="?android:attr/colorPrimaryDark">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewStationByStationRoute"
+        android:layout_below="@+id/textViewRouteLabel"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="3dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingTop="3dip"
+        android:layout_marginTop="25dip"
+        android:dividerHeight="2sp"
+        android:divider="?android:attr/colorPrimaryDark"
+        android:background="@drawable/list_selector" />
+
+    <TextView
+        android:text="@string/routeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewRouteLabel"
+        android:textColor="?android:attr/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dip"
+        android:textSize="20sp"
+        android:layout_toStartOf="@+id/imageViewMapIcon" />
+
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:onClick="drawRouteOnMap"
+        app:srcCompat="@drawable/mapicon"
+        android:id="@+id/imageViewMapIcon"
+        android:background="@drawable/image_border"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

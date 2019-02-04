@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_trip_planner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.brandon.transblink.TripPlanner"
+    android:background="?android:attr/colorPrimaryDark">
+
+    <AutoCompleteTextView
+        android:text=""
+        android:hint="Enter Destination Station"
+        android:textColorHint="?android:attr/colorAccent"
+        android:layout_width="300dip"
+        android:background="@drawable/image_border"
+        android:paddingBottom="3dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingTop="3dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dip"
+        android:id="@+id/autoCompleteTextViewEnding"
+        android:layout_below="@+id/autoCompleteTextViewStarting"
+        android:layout_alignEnd="@+id/autoCompleteTextViewStarting"
+        android:textColor="?android:attr/colorPrimary"
+        android:textSize="20sp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewPossibleRoutes"
+        android:layout_below="@+id/buttonFindRoutes"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="4dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="4dip"
+        android:divider="?android:attr/colorPrimaryDark"
+        android:dividerHeight="2sp"
+        android:background="?android:attr/colorPrimary" />
+
+    <AutoCompleteTextView
+        android:text=""
+        android:hint="Enter Starting Station"
+        android:textColorHint="?android:attr/colorAccent"
+        android:background="@drawable/image_border"
+        android:paddingBottom="4dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="4dip"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoCompleteTextViewStarting"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="?android:attr/colorPrimary"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="Find Route(s)"
+        android:onClick="findRoute"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFindRoutes"
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="16dip"
+        android:layout_below="@+id/autoCompleteTextViewEnding"
+        android:layout_centerHorizontal="true"
+        android:textColor="?android:attr/colorAccent"
+        android:textSize="24sp" />
+
+</RelativeLayout>
